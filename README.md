@@ -133,3 +133,12 @@ You can cite this library as follows:
   year = {2025}
 }
 ```
+## Notes
+
+### Demo Colab
+
+1. Hugging face tokens
+2. Change runtime to T4 GPU(V2-8 TPU does not work)
+3. Grant access for [`google/gemma-2-2b`](https://huggingface.co/google/gemma-2-2b)
+OutOfMemoryError: CUDA out of memory.
+
